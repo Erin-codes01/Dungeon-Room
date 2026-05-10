@@ -1,0 +1,12 @@
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[user]
+	name = Erin Shea
+	email = e.l.shea23@gmail.com
+[init]
+	defaultBranch = main
+[safe]
+	directory = C:/Users/sweat
